@@ -1,0 +1,77 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "86b2c60a-36d6-4108-b138-67ba120a6b61",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "class ncaa:\n",
+    "    def __init__(self, name):\n",
+    "        self.name = name\n",
+    "\n",
+    "    class conference:\n",
+    "        def __init__(self, name):\n",
+    "            self.name = name\n",
+    "\n",
+    "        class team:\n",
+    "            def __init__(self, name):\n",
+    "                self.name = name\n",
+    "\n",
+    "            class player: \n",
+    "                def __init__(self, name, pos, height, year, highschool, clubteam, prevschool):\n",
+    "                    self.name = name\n",
+    "                    self.pos = pos\n",
+    "                    self.height = height\n",
+    "                    self.year = year\n",
+    "                    self.highschool = highschool\n",
+    "                    self.clubteam = clubteam\n",
+    "                    self.prevschool = prevschool\n",
+    "\n",
+    "                class stats:\n",
+    "                    def __init__(self, mins, gp, gs, pts, assts, rebs, drebs, orebs, tos, blks, stls):\n",
+    "                        self.mins = mins\n",
+    "                        self.gp = gp\n",
+    "                        self.gs = gs\n",
+    "                        self.pts = pts\n",
+    "                        self.assts = assts\n",
+    "                        self.rebs = rebs\n",
+    "                        self.drebs = drebs\n",
+    "                        self.orebs = orebs\n",
+    "                        self.tos = tos\n",
+    "                        self.blks = blks\n",
+    "                        self.stls = stls"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 'None',
+   "id": "f59246ed-ab8e-49d9-81b4-2da43fb2fc68",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:base] *",
+   "language": "python",
+   "name": "conda-base-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.7"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
